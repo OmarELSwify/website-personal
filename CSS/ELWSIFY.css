@@ -1,0 +1,84 @@
+/*
+=============================================================
+=============================================================
+======> Programming by Eng Omar Mohamed ELSwify <============
+======> Lang. for Style & Normalize $ Components & Icon <====
+======> Version 1.7.7.14.7 <=================================
+======> File name = ELSWIFY.CSS <============================
+======> Contect: Var & Global Rules & Fonts & Icon & Media <=
+=============================================================
+=============================================================
+*/
+
+
+
+/* Start Varib */
+/* :root {
+    --one-color:#a2a2a2;
+    --tow-color:#19c8fa;
+    --three-color:rgb(15 116 143 / 70%);
+    --four-color:#777;
+    --five-color:#f38181;
+    --six-color:#ff7676;
+    --seven-color:#17ead9;
+    --ehit-color:#622774;
+    --nin-color:#7117ea;
+    --tin-color:#42e695;
+    --telv-color:#74276c;
+    --teinty-color:#574BCD;
+    --trhetin-color:#f02fc2;
+    --fortin-color:#274b74;
+    --fitin-color:#363553;
+    --padding-all-section:100px;
+} */
+/* End Varib */
+
+
+
+/* Start Global  Rules */
+*{
+    --webkit-box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+html{
+    scroll-behavior: smooth;
+    direction: rtl;
+}
+body{
+    font-family: 'Cairo', sans-serif;  
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* small */
+@media (min-width:768px){
+    .contect{
+        width: 750px;
+    }
+}
+/* medaium */
+@media (min-width:922px){
+    .contect{
+        width: 970px;
+    }
+}
+/* Large */
+@media (min-width:1200px){
+    .contect{
+        width: 1170px;
+    }
+}
+/* End Global  Rules */

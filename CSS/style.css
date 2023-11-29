@@ -1,0 +1,439 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900&display=swap');
+/* Start Varib */
+:root {
+    --one-color:#f0f0f0;
+    --tow-color:#2a5cf4;
+    --three-color:#601cfc;
+    --four-color: #3a6cf4;
+    --five-color:#000016;
+}
+/* End Varib */
+/* Start Components */
+    
+.main-heading{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 35px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+    border-radius: 60px;
+    background-color: var(--four-color);
+    color: #fff;
+}
+/* End Components */
+/* Start Headr */
+header {
+    background-color: var(--one-color);
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+}
+.logo{
+    text-decoration: none;
+    color: var(--tow-color) ;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 20px;
+    transition: 0.7s ease;
+}
+.logo:hover{
+    color: #601cfc;
+    transform: scale(1.1);
+}
+.navgetion a {
+   color: var(--tow-color);
+   text-decoration: none;
+   font-size: 17px;
+   font-weight: 500;
+   padding-left: 30px;
+   transition: 0.7s ease;
+   transform: scale(1.1);
+}
+.navgetion a:hover{
+    color: var(--three-color);
+}
+/* End Headr */
+/* Start Main Heading */
+
+section {
+    padding: 100px ;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(../img/Background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+    color: #fff;
+    font-size:22px;
+    font-weight: 500;
+
+}
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 48px;
+    font-weight: 600;
+}
+.main h3 {
+    color: #fff;
+    font-size:20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+.main-btn:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+.soical-icon a{
+    color: #f0f0f0;
+    font-size: 20px;
+    padding-right: 30px;
+}
+/* End Main Heading */
+/* Start Services */
+ .cards .contect {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+    /* justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap; */
+}
+ .cards .contect  .card {
+    background-color: #f0f0f0;
+    width: 300px;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    line-height: 2;
+    margin: 15px;
+    transition: 0.7s ease;
+}
+ .cards .contect .card:hover{
+    transform: scale(1.1);
+}
+ .cards .contect .card .icon {
+    color: var(--four-color);
+    font-size: 128px;
+    text-align: center;
+}
+ .cards .contect .card .info{
+    text-align: center;
+}
+.cards .contect .card .info h3{
+    color: var(--four-color);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+/* End Services */
+/* Start Projects */
+.projects {
+    background-color: var(--five-color);
+}
+.projects .contect {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+}
+.card-projects{
+    background-color:#fff;
+    border: 5px solid #fff;
+    min-height: 224px ;
+    width: 300px ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.card-projects:hover{
+    transform: scale(1.1);
+}
+.projects .contect .image img{
+    width: 100%;
+}
+.projects .contect .image img:hover{
+    opacity: 0.9;
+}
+.projects .contect .projects-info{
+    padding: 16px;
+}
+.projects .contect .projects-info .project-category{
+    font-size: 13px ;
+    color: #000;
+}
+.projects .contect .projects-info .projects-title{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.projects .contect .projects-info .more-detalis{
+    text-decoration: none;
+    color: var(--tow-color);
+}
+.projects .contect .projects-info .more-detalis:hover{
+    color: var(--three-color);
+}
+
+/* End Projects */
+/* Start Ain Shams */
+/* .ain-shms .container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-column-gap: 40px;
+    grid-row-gap: 60px;
+}
+.ain-shms .container .info-ain{
+    display: flex;
+    justify-content: center;
+    padding: -20px;
+    margin: -20px;    
+} */
+/* .ain-shms .container .main-heading-part{
+    text-align: center;
+    color:var(--four-color);
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+   
+} */
+/* .ain-shmss .container .main-heading-part .ain{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-weight: 800;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+} */
+/* .ain-shms .contect .card-projects .project-category {
+    text-align: center;
+
+} */
+/* .ain-shms .container .contect .card-projects{
+    background-color:#fff;
+    border: 5px solid #fff;
+    min-height: 224px ;
+    width: 368px ;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+} */
+/* End Ain Shams */
+/* Start Contact */
+.contact .icon a{
+    color: var(--tow-color);
+}
+/* End Contact */
+/* Start Footer */
+.footer{
+    background-color: var(--five-color);
+    color: var(--one-color);
+    padding: 36px;
+    display: flex;
+    justify-content: center;
+}
+.footer .footer-title{
+    font-size: 20px;
+    font-weight: 600;
+}
+.footer .footer-title span{
+    color: var(--tow-color);
+    font-size: 30px;
+}
+/* End Footer */
+
+/* Start Media Qury */
+/* @media (max-width:1023px){
+    body{
+        font-size: 10px;
+    }
+    header{
+        padding: 10px 20px;
+    }
+    header .logo {
+        font-size: 15px;
+    }
+
+    header .navgetion a{
+        padding-left: 5px;
+        font-size: 15px;
+    }
+    .main-heading {
+        font-size: 25px;
+    }
+    .projects .contect  .card-projects {
+        font-size: 16px;
+    }
+    section{
+        padding: 80px 20px;
+    } 
+    .content h2{
+        font-size: 16px ;
+    }
+    .content h3{
+        font-size: 25px;
+    }
+    .contect {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        background-color: var(--five-color);
+        color: var(--one-color);
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .footer-title{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .footer .footer-title span{
+        color: var(--tow-color);
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .footer .soical-icon {
+        color: #f0f0f0;
+        font-size: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+}
+@media (max-width:641px) {
+    body{
+        font-size: 12px;
+    }
+    .content h2{
+        font-size: 12px ;
+    }
+    .content h3{
+        font-size: 20px;
+    }
+}
+@media (max-width:300px) {
+    body{
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+ */
+
+/* ========= */
+@media (max-width:1023px){
+    header{
+        padding: 12px 20px;
+    }
+    header .logo {
+        font-size: 15px;
+    }
+    .navgetion a{
+        padding-left: 5px;
+        font-size: 15px;
+    }
+
+    .main-heading{
+        font-size: 1.8em;
+    }
+
+    section{
+        padding: 80px 20px;
+    }
+
+    .content h2{
+        font-size: 1em;
+    }
+
+    .content h3{
+        font-size: 1.6em;
+    }
+
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer{
+        background-color: var(--five-color);
+        color: var(--one-color);
+        padding: 15px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footer .footer-title{
+        font-size: 10px;
+        font-weight: 600;
+    }
+    .footer .footer-title span{
+        color: var(--tow-color);
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    .footer .soical-icon {
+        color: #f0f0f0;
+        font-size: 10px;
+        padding-right: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:641px){
+    body{
+        font-size: 12px;
+    }
+
+    .main-content h2{
+        font-size: 0.8em;
+    }
+
+    .main-content h3{
+        font-size: 1.4em;
+    }
+}
+
+@media (max-width:300px){
+    body{
+        font-size: 10px;
+     
+    }
+}
+/* End Media Qury */
